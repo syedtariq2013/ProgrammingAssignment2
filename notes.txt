@@ -1,0 +1,50 @@
+C:\Users\Syed\Documents\GitHub> mkdir ProgrammingAssignment2
+C:\Users\Syed\Documents\GitHub> cd .\ProgrammingAssignment2
+C:\Users\Syed\Documents\GitHub\ProgrammingAssignment2> git init
+Initialized empty Git repository in C:/Users/Syed/Documents/GitHub/ProgrammingAssignment2/.git/
+C:\Users\Syed\Documents\GitHub\ProgrammingAssignment2 [master]> git pull https:/github.com/syedtariq2013/ProgrammingAssignment2
+remote: Reusing existing pack: 10, done.
+remote: Total 10 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (10/10), done.
+From https://github.com/syedtariq2013/ProgrammingAssignment2
+ * branch            HEAD       -> FETCH_HEAD
+C:\Users\Syed\Documents\GitHub\ProgrammingAssignment2 [master]> ls
+
+
+    Directory: C:\Users\Syed\Documents\GitHub\ProgrammingAssignment2
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+-a---         4/13/2014   4:18 PM        339 cachematrix.R
+-a---         4/13/2014   4:18 PM       4123 README.md
+
+
+C:\Users\Syed\Documents\GitHub\ProgrammingAssignment2 [master]> git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#       .gitignore
+#       ProgrammingAssignment2.Rproj
+nothing added to commit but untracked files present (use "git add" to track)
+C:\Users\Syed\Documents\GitHub\ProgrammingAssignment2 [master +2 ~0 -0 !]> git add .
+C:\Users\Syed\Documents\GitHub\ProgrammingAssignment2 [master +2 ~0 -0]> git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#       new file:   .gitignore
+#       new file:   ProgrammingAssignment2.Rproj
+#
+
+C:\Users\Syed\Documents\GitHub\ProgrammingAssignment2 [master +2 ~0 -0]> git remote add ProgrammingAssignment2 https://github.com/syedtariq2013/ProgrammingAssignment2
+C:\Users\Syed\Documents\GitHub\ProgrammingAssignment2 [master +2 ~0 -0]> git push ProgrammingAssignment2 master
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 340 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/syedtariq2013/ProgrammingAssignment2
+   e4eed41..ea906b0  master -> master
+C:\Users\Syed\Documents\GitHub\ProgrammingAssignment2 [master +2 ~0 -0]>
